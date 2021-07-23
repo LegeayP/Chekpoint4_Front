@@ -1,0 +1,120 @@
+body{
+    background: linear-gradient(#9b9a99, #aaa7a7);
+}
+.ContactPage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.Contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.inputContact {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.prenom-contact {
+  border-style: none;
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 15px 5px 10px rgb(121, 119, 119);
+}
+
+.nom-contact {
+  border-style: none;
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 15px 5px 10px rgb(121, 119, 119);
+}
+
+.tel-contact {
+  border-style: none;
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 15px 5px 10px rgb(121, 119, 119);
+  transition: 200ms ease;
+}
+
+.email-contact {
+  border-style: none;
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 15px 5px 10px rgb(121, 119, 119);
+  transition: 200ms ease;
+}
+
+.text-area-contact {
+  border-style: none;
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 15px 5px 10px rgb(121, 119, 119);
+  margin: auto;
+  text-align: center;
+  width: 30vw;
+  height: 7vh;
+  font-size: 20px;
+}
+
+.buttonContact {
+  border-style: none;
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 10px 5px 10px rgb(121, 119, 119);
+  margin: 10px;
+  cursor: pointer;
+  transition: 200ms ease;
+}
+.buttonContact:hover {
+  box-shadow: 10px 5px 10px #e4a506;
+}
+
+.inputContact input {
+  text-align: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+.contact-info-wrapper {
+  display: flex;
+  margin: 2rem auto 0 auto;
+}
+.Map img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.contact-info-wrapper p {
+  display: flex;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  margin-left: 2%;
+  justify-content: center;
+}
+.Contact label {
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 1s;
+  transition-delay: 0s;
+}
+Small screen @media only screen and (max-width: 600px) {
+  .contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+  }
+  .text-area-contact:focus {
+    box-shadow: 10px 5px 10px #e4a506;
+    font-size: 22px;
+    width: 40vw;
+    height: 20vh;
+  }
+}

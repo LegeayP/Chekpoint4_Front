@@ -1,0 +1,20 @@
+.Block1bien {
+  display: flex;
+  justify-content: space-around;
+}
+
+.AchatName {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
+  align-items: center;
+}
+.imageAchat {
+  width: 40%;
+}
+@media only screen and (max-width: 600px) {
+  .imageAchat {
+    width: 60%;
+  }
+}

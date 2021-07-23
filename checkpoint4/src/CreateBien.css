@@ -1,0 +1,15 @@
+.CreateBien {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.CreateBien input {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
